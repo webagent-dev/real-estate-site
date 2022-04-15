@@ -1,0 +1,45 @@
+/* media querys */
+
+@media(max-width:576px){
+    nav{
+        display: none;
+    }
+
+    .grid{
+    
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.agent-grid{
+    grid-template-columns: 1fr;
+    gap: 1rem; 
+}
+
+
+.full-grid{
+    grid-template-columns: 1fr;
+    grid-column-gap: 1rem;
+}
+
+.grid-con{
+    grid-template-columns: 1fr;
+}
+
+.contact-grid{
+    grid-template-columns: 1fr;
+    gap: 1rem; 
+}
+
+
+.first-item{
+    grid-template-columns: 35% 65%;
+    gap: 5rem;
+}
+
+.other{
+    grid-template-columns: 1fr;
+}
+
+
+}
