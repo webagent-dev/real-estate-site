@@ -357,6 +357,7 @@ ul li a:hover{
 
 
 .service{
+    width: 100%;
     height: 100vh;
 }
 .main-service{
@@ -366,6 +367,8 @@ ul li a:hover{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
+    align-items: center;
+    justify-content: center; 
 }
 
 .main-service h1{
